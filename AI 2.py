@@ -9,19 +9,14 @@ def install_libraries():
         print("Required libraries not found. Installing...")
         subprocess.check_call([sys.executable, "-m", "pip", "install", "numpy", "pygame"])
 
-# Install required libraries
 install_libraries()
 
-# Now you can proceed with the rest of your code
+
 import numpy as np
 import heapq
 import pygame
 import sys
 
-# ... (rest of your code)
-
-
-# Constants for visualization
 SCREEN_WIDTH = 400
 SCREEN_HEIGHT = 400
 
